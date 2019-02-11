@@ -4,7 +4,9 @@
   "description": "practical skills project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier-check": "prettier --check \"src/*.js\"",
+    "prettier-write": "prettier --write \"src/*.js\""
   },
   "repository": {
     "type": "git",
@@ -36,6 +38,7 @@
     "@babel/plugin-syntax-import-meta": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "babel-loader": "^8.0.5",
+    "prettier": "1.16.4",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"
   }

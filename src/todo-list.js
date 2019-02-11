@@ -16,11 +16,11 @@ export default class TodoList {
     //   this.element.appendChild(this.message);
     // }
     this.addInput = document.querySelector('.add-input');
-  }
+  };
 
   add = () => {
     this.todoItem = new TodoItem(this.addInput.value).element;
     this.element.appendChild(this.todoItem);
     this.addInput.value = null;
-  }
+  };
 }

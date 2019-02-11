@@ -9,5 +9,5 @@ export default class App {
 
   init = () => {
     this.todoForm.onSubmit = this.todoList.add.bind(this.todoList);
-  }
+  };
 }
