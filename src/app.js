@@ -1,4 +1,4 @@
-class App {
+export default class App {
   constructor(element, todoList, todoForm) {
     this.element = element;
     this.todoList = todoList;

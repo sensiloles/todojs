@@ -1,4 +1,4 @@
-class TodoForm {
+export default class TodoForm {
   constructor(element) {
     this.element = element;
     this.onSubmit = () => {};

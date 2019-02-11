@@ -1,4 +1,4 @@
-function createElement(tag, props, ...children) {
+export default function createElement(tag, props, ...children) {
   let element = document.createElement(tag);
 
   Object.keys(props).forEach(prop => {

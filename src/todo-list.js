@@ -1,4 +1,6 @@
-class TodoList {
+import TodoItem from './todo-item';
+
+export default class TodoList {
   constructor(element) {
     this.element = element;
     this.todoItem = null;

@@ -1,4 +1,6 @@
-class TodoItem {
+import createElement from './DOM';
+
+export default class TodoItem {
   constructor(title) {
     this.title = title;
     this.element = null;
